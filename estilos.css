@@ -1,0 +1,66 @@
+body{
+	background-image: url(fondo.jpg);
+	background-size: cover;
+}
+.cuadro{
+	position: absolute;
+	top:10%;
+	width:400px;
+    height:250px;
+	left:3%;
+	border-color: black;
+	background-image: url(img1.jpg);
+	border-style: dotted;
+	border-width: 7px;
+}
+.cuadro1{
+	position: absolute;
+	top:58%;
+	width:380px;
+    height:250px;
+	left:3%;
+	border-color: black;
+	background-image: url(img2.jpg);
+	border-style: dotted;
+	border-width: 7px;
+}
+.cuadro2{
+	position: absolute;
+	top:30%;
+	width:400px;
+    height:300px;
+	right: 3%;
+	border-color: black;
+	background-image: url(img3.jpg);
+	border-style: dotted;
+	border-width: 7px;
+}
+.cuadro3{
+	position: absolute;
+	top:15%;
+	width:350px;
+    height:500px;
+	right: 35%;
+	border-color: black;
+	background-image: url(img4.jpg);
+	border-style: dotted;
+	border-width: 7px;
+}
+
+
+.cuadro:hover {
+	opacity: 0.3
+
+}
+.cuadro1:hover {
+	opacity: 0.3
+	
+}
+.cuadro2:hover {
+	opacity: 0.3
+	
+}
+.cuadro3:hover {
+	opacity: 0.3
+	
+}
